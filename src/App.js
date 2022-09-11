@@ -61,10 +61,7 @@ export default function App() {
         onChange={changeHandler}
         value={emoji}
         placeholder={"Enter your emoji"}
-        // style={{
-        //   padding: "1rem",
-        //   minWidth: "80%"
-        // }}
+        
       />
       <h2> {emoji}</h2>
       <h3> {meaning}</h3>
@@ -73,8 +70,8 @@ export default function App() {
           onClick={() => emojiClickHandler(emoji)}
           style={{ fontSize: "2rem", padding: "0.5rem", cursor: "pointer" }}
         >
-          {" "}
-          {emoji}{" "}
+          
+          {emoji}
         </span>
       ))}
     </div>
