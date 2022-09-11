@@ -64,7 +64,7 @@ export default function App() {
         
       />
       <h2> {emoji}</h2>
-      <h3> {meaning}</h3>
+      <h2> {meaning}</h2>
       {emojis.map((emoji) => (
         <span
           onClick={() => emojiClickHandler(emoji)}
