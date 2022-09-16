@@ -2,7 +2,7 @@ import './App.css';
 import React, { useState } from "react";
 
 
-const emojiDictionary = {
+const Encylopedia = {
   "😊": "Smiling",
   "😳": "disbelief",
   "😔": "sad",
